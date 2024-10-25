@@ -2,10 +2,110 @@ body {
     margin: 0;
   }
 
-.LocatonLinks {
-  display: flex;
+header {
+  background-color: #d3d3d3;
 }
 
-  @media{
-    
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 1.25em;
+  }
+
+.LocatonLinks {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  gap: 6em;
+  font-weight: bold;
+  padding-bottom: 3em;
+  border-bottom: solid 5px black;
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 20px 20px;
+  border: solid 3px black;
+}
+
+.TextDecor:hover {
+  text-decoration: underline;
+  color: #0000EE;
+  background-color: rgb(210, 210, 210);
+  border-radius: 2rem;
+}
+
+.BorderBox {
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  margin-top: 0;
+  background-size: cover;
+  background-size: contain;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.InfoBackground {
+  padding: 18px;
+}
+
+.PreInfo {
+  padding: 2.5rem;
+  border-bottom: solid 5px black;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.ListTips{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  gap: 2em;
+  padding-bottom: 2rem;
+  padding-right: 2.5rem;
+  border-bottom: solid 3px black;
+}
+
+.TouchLink {
+  text-decoration: underline;
+  color: #0000EE;
+  border: none;
+  padding: 0;
+}
+
+.GithubLink {
+  text-decoration: underline;
+  color: #0000EE;
+  border: none;
+}
+
+.InFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  @media (max-width: 770px) {
+    .LocatonLinks {
+      flex-direction: column;
+      gap: 3em
+    }  
+    .ListTips {
+      flex-direction: column;
+    }
   } 
