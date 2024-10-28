@@ -12,6 +12,8 @@ h1 {
   align-items: center;
   margin-top: 0;
   padding-top: 1.25em;
+  font-size: 50px;
+  text-shadow: 0 0 5px #ffffff, 0 0 6px #ffffff;
   }
 
 .LocatonLinks {
@@ -55,10 +57,14 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 0;
+  font-size: xx-large;
 }
 
 .InfoBackground {
   padding: 18px;
+  color: red;
+  text-shadow: 0 0 1px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 .PreInfo {
@@ -66,6 +72,8 @@ h2 {
   border-bottom: solid 5px black;
   font-size: large;
   text-decoration: underline;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .ListTips{
@@ -77,6 +85,13 @@ h2 {
   padding-bottom: 2rem;
   padding-right: 2.5rem;
   border-bottom: solid 3px black;
+}
+
+img {
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .TouchLink {
@@ -92,12 +107,19 @@ h2 {
   border: none;
 }
 
+.Contact {
+  font-size: large;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
 .InFooter {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 3rem;
+  font-size: large;
+  padding-top: 0;
 }
 
 
